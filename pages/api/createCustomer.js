@@ -19,8 +19,8 @@ export default async function handler(req, res) {
       },
       {
         headers: {
-          Authorization: `Bearer ${mollieApiKey}`, // Provide the authorization header with the Mollie API key
-          'Content-Type': 'application/json',      // Set the content type to JSON
+          Authorization: `Bearer ${mollieApiKey}`,
+          'Content-Type': 'application/json',      
         },
       }
     );
